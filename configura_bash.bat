@@ -2,12 +2,10 @@
 echo Configurando Git...
 
 REM Define diretamente o nome de usuário e e-mail
-set username=SEU_NOME
-set useremail=SEU_EEMAIL
 
 REM Configurações globais do Git
-git config --global user.name "%username%"
-git config --global user.email "%useremail%"
+git config --global user.name "%lorenzokml%"
+git config --global user.email "%lorenzodev2009@gmail.com%"
 
 echo.
 echo Configurações aplicadas com sucesso:
