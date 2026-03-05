@@ -166,13 +166,14 @@ body {
     margin-top: 500px;
     background-color: black;
     color: white;
-    height: 588px;
+    height: 570px;
 }
 .final h1{
     font-size: xx-large;
     padding: 50px;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .campopesquisa2{
     justify-content: center;
@@ -216,12 +217,29 @@ body {
     text-transform: uppercase;
     margin-right: 30px;
     cursor: pointer;
+    margin-left: 30px;
 }
 .itens h4{
     font-size: 22px;
     font-weight: bold;
     cursor: pointer;
+    
 }
 hr{
     margin-top: -40px;
+}
+.itensdireita{
+  display: flex;
+  gap: 40px;
+}
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redesSociais img{
+    width: 70px;
+    height: 70px;
+    margin-top: 55px;
+    margin-right: 25px;
 }
