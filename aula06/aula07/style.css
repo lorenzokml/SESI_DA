@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logoarea {
+    display: flex;
+    align-items: center;
+}
+
+.logoarea img {
+    width: 40%;
+    margin-left: 0px;
+}
+
+.logoarea h1 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.navlink p {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.navlink {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: absolute;
+    left: 47%;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: end;
+}
+
+.pesquisa img {
+    width: 3%;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.pesquisa button {
+    width: 50px;
+    height: auto;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    border: none;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: wheat;
+}
+.txthero h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 900px;
+    font-size: 60px;
+    margin-left: 150px;
+}
+.txthero p{
+    font-size: 17px;
+    width: 50%;
+    margin-top: -25px;
+    margin-left: 155px;
+}
+.txthero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container img{
+    width: 22000px;
+    margin-top: 210px;
+}
+.txthero button{
+    width: 50%;
+    height: 40px;
+    margin-left: 155px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: beige;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container2{
+    background-color: antiquewhite;
+    margin-top: -22px;
+    height: 500px;
+}
+.txthero2 h1{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    margin-bottom: 1px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+.txthero2  hr{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin-bottom: 10px;
+}
+.txthero2 p{
+    width: 45%;
+    margin-left: 540px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.cimagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 200px;
+    margin-top: -30px;
+}
+.cimagens img{
+    width: 300px;
+}
