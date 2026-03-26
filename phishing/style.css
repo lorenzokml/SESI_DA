@@ -5,6 +5,13 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 200px;
+}
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .card-login{
     background-color: #08687e;
@@ -12,6 +19,8 @@ body{
     padding: 10px 30px 45px 30px;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .card-login p{
     font-size: 28px;
@@ -21,10 +30,46 @@ body{
 .icon{
     background-color: #faa635;
     border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    width: 85px;
 }
 .input-icon{
     display: flex;
+    height: 60px;
+    margin-bottom: 10px;
 }
 .icon img{
     width: 50%;
+}
+.input-icon input{
+    width: 100%;
+    outline: none;
+    border: 0px;
+    border: 0px;
+    border-radius: 0px 8px 0px 0px;
+}
+.grupo-inputs button{
+    height: 50px;
+    width: 340px;
+    color: white;
+    border: 0px;
+    background-color: #0c9abe;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.card-login button:hover{
+    opacity: 0.89;
+    color: #faa635;
+}
+.grupo-inputs a{
+    color: white;
+    font-weight: bold;
+    
+}
+.input-icon select{
+    width: 1200px;
 }
