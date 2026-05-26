@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tela-login" class="pagina-login">
+        <div class="cartao-login">
+            <div class="icone-login"></div>
+            <h2>Bem-vindo de volta</h2>
+            <p class="subtitulo-login">Entre para gerenciar seu negócio</p>
+            
+            <div class="grupo-input campo-login">
+                <label>Usuário</label>
+                <input type="text" id="usuario" placeholder="admin">
+            </div>
+            
+            <div class="grupo-input campo-login">
+                <label>Senha</label>
+                <input type="password" id="senha" placeholder="••••••••">
+            </div>
+            
+            <button class="botao-primario botao-login" onclick="fazerLogin()">Entrar no Painel</button>
+            <p id="erro-login" class="mensagem-erro">Credenciais inválidas. Tente novamente.</p>
+        </div>
+    </div>
+
+    <div id="painel-controle" class="painel">
+        <aside class="barra-lateral">
+            <div class="logotipo"> Mercado</div>
+            
+            <ul class="menu-navegacao">
+                <li class="item-menu ativo" id="menu-inicio" onclick="mostrarTela('inicio')">
+                    <span></span> Início
+                </li>
+                <li class="item-menu" id="menu-produtos" onclick="mostrarTela('produtos')">
+                    <span></span> Estoque
+                </li>
+                <li class="item-menu" id="menu-vendas" onclick="mostrarTela('vendas')">
+                    <span></span> PDV / Vendas
+                </li>
+                <li class="item-menu" id="menu-relatorios" onclick="mostrarTela('relatorios')">
+                    <span></span> Relatórios
+                </li>
+            </ul>
+            
+            <div class="rodape-lateral">
+                <button class="botao-sair" onclick="fazerLogout()">Sair do Sistema</button>
+            </div>
+        </aside>
+
+        <main class="conteudo-principal">
+            <div id="area-conteudo"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
