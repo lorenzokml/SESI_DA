@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Sistema de Orçamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="tela-login" class="container">
+        <h2>Entrar no Sistema</h2>
+        <div class="campo">
+            <label>Usuário:</label>
+            <input type="text" id="usuario" placeholder="Digite o usuário">
+        </div>
+        <div class="campo">
+            <label>Senha:</label>
+            <input type="password" id="senha" placeholder="Digite a senha">
+        </div>
+        <button onclick="fazerLogin()">Entrar</button>
+        <p id="erro-login" class="erro"></p>
+    </div>
+
+    <div id="tela-painel" class="container escondido">
+        <header>
+            <h2>Sistema de Orçamentos 💰</h2>
+            <button onclick="fazerLogout()" class="btn-sair">Sair</button>
+        </header>
+
+        <hr>
+
+        <h3>Adicionar Produto</h3>
+        <div class="formulario">
+            <input type="text" id="prod-nome" placeholder="Produto">
+            <input type="number" id="prod-qtd" placeholder="Qtd">
+            <input type="number" id="prod-preco" placeholder="Preço R$">
+            <button onclick="adicionarProduto()">Adicionar</button>
+        </div>
+
+        <h3>Itens do Orçamento</h3>
+        
+        <div id="lista-produtos">
+            </div>
+
+        <div class="resumo">
+            <h3>Total Geral: R$ <span id="total-geral">0.00</span></h3>
+            <button onclick="gerarCupom()">Gerar Cupom Fiscal</button>
+        </div>
+
+        <div id="cupom-fiscal" class="cupom escondido">
+            <h4>*** CUPOM FISCAL ***</h4>
+            <div id="cupom-itens"></div>
+            <hr>
+            <h4>TOTAL: R$ <span id="cupom-total">0.00</span></h4>
+            <button onclick="fecharCupom()">Fechar</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
