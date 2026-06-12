@@ -1,0 +1,70 @@
+A área de dispositivos vestíveis para saúde (como pulseiras inteligentes) tende a crescer rapidamente devido ao envelhecimento da população e aos avanços em IoT, inteligência artificial e telemedicina. No futuro, esses dispositivos não apenas detectarão quedas, mas também serão capazes de monitorar sinais vitais em tempo real, prever riscos à saúde e acionar automaticamente familiares, médicos ou serviços de emergência. A tendência é que os sensores se tornem menores, mais precisos e mais baratos, permitindo um acompanhamento contínuo e personalizado da saúde, contribuindo para maior autonomia, segurança e qualidade de vida dos idosos.
+
+
+Importância do projeto
+Aumenta a segurança e a autonomia dos idosos, permitindo que eles mantenham sua independência por mais tempo.
+Reduz o tempo de resposta em situações de emergência, especialmente após quedas.
+Auxilia familiares e cuidadores no monitoramento remoto.
+Pode diminuir custos com internações e complicações decorrentes de quedas não atendidas rapidamente.
+Contribui para a melhoria da qualidade de vida e do bem-estar da população idosa.
+Utiliza tecnologias acessíveis (Arduino, sensores e IoT), tornando a solução potencialmente de baixo custo.
+
+
+Relevância mundial
+O envelhecimento populacional é uma das maiores transformações demográficas do século XXI.
+Segundo a Organização Mundial da Saúde, a população com mais de 60 anos cresce rapidamente em praticamente todos os países.
+Quedas estão entre as principais causas de lesões, hospitalizações e perda de independência em idosos.
+Países como Japão, Alemanha e Canadá investem fortemente em tecnologias assistivas para o envelhecimento saudável.
+O mercado de saúde digital e dispositivos vestíveis (wearables) está em forte expansão.
+
+
+Sensores que podem ser utilizados
+-Detecção de queda
+Acelerômetro (MPU6050).
+Giroscópio.
+Sensor IMU (Unidade de Medição Inercial).
+-Monitoramento cardíaco
+Sensor MAX30102.
+Sensor de frequência cardíaca Pulse Sensor.
+-Localização
+Módulo GPS.
+Triangulação por rede móvel ou Wi-Fi.
+-Comunicação
+ESP32 com Wi-Fi e Bluetooth.
+Módulo GSM (SIM800L) para envio de SMS.
+
+
+
+
+
+Legislações relevantes (Brasil)
+Lei Geral de Proteção de Dados (LGPD)
+
+Lei Geral de Proteção de Dados
+Dados de saúde são considerados dados sensíveis.
+É necessário proteger informações pessoais dos usuários.
+O usuário deve consentir com a coleta e uso dos dados.
+Estatuto da Pessoa Idosa
+
+Estatuto da Pessoa Idosa
+Garante proteção, dignidade e qualidade de vida à pessoa idosa.
+Incentiva iniciativas que promovam segurança e autonomia.
+Marco Civil da Internet
+
+Marco Civil da Internet
+Define princípios sobre privacidade e segurança de dados na internet.
+
+
+
+
+Aspectos históricos importantes
+Evolução do cuidado aos idosos
+Antigamente o cuidado era quase exclusivamente familiar.
+O aumento da expectativa de vida criou novas demandas por monitoramento e assistência.
+Surgimento dos wearables
+Década de 1980: primeiros dispositivos eletrônicos portáteis.
+Anos 2000: expansão dos sensores biométricos.
+Anos 2010: popularização de smartwatches e pulseiras inteligentes.
+Desenvolvimento da IoT
+Conceito formulado na década de 1990.
+Atualmente bilhões de dispositivos estão conectados à internet.
